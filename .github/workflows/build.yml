@@ -2,7 +2,7 @@ name: CI
 
 on: #Merges when pull request to Master branch is created
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:
